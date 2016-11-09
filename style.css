@@ -1,0 +1,120 @@
+/* Here goes your CSS */
+/* Here goes your CSS */
+body{
+  background: #f4f7f7;
+  font-family: 'Roboto', sans-serif;
+  color:#393e46;
+}
+
+.profile_image {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  margin: 0 auto;
+}
+
+.container {
+  width: 500px;
+  height: 200px;
+  padding: 30px 30px;
+  border-radius: 4px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  margin: 10px auto 10px auto;
+  background-color: #ffffff;
+  text-align: center;
+}
+
+.container a{
+  text-decoration: none;
+  color: #393e46;
+}
+.container a:hover{
+  font-weight: 600;
+  text-decoration: none;
+  color: #393e46;
+}
+
+.products {
+  width: 500px;
+  height: 600px;
+  padding: 30px 30px;
+  border-radius: 4px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  margin: 10px auto 10px auto;
+  background-color: #ffffff;
+  text-align: center;
+  font-size: 18px;
+}
+.products li {
+  list-style: none;
+  display: inline-block;
+  padding: 0 20px;
+}
+
+.products ul {
+  padding-bottom: 20px;
+}
+
+.banhmi_img img{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: 2px solid rgba(0, 0, 0, 0.1);
+
+}
+
+
+.description {
+  width: 500px;
+  height: 50px;
+  padding: 30px 30px;
+  border-radius: 4px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  margin: 10px auto;
+  background-color: #ffffff;
+  text-align: center;
+}
+
+.description i {
+  font-size: 30px;
+  padding: 0 30px;
+}
+
+.description a {
+  text-decoration: none;
+  color: black;
+}
+
+.description a:hover {
+  font-size: 31px;
+}
+
+#sidebar {
+  position: fixed;
+  width: 100px;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  background-color: #2c3e50;
+}
+#page-content {
+  margin-left: 100px;
+}
+#sidebar i {
+  font-size: 27px;
+  padding: 30 0px;
+  text-decoration: none;
+  color:#788188;
+}
+#sidebar a {
+  text-decoration: none;
+}
+#sidebar i:hover {
+  color: #ffffff;
+}
+
+#sidebar ul {
+  text-decoration: none;
+  list-style: none;
+}
