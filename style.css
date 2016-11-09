@@ -107,11 +107,12 @@ body{
   text-decoration: none;
   color:#788188;
 }
-#sidebar a {
-  text-decoration: none;
-}
 #sidebar i:hover {
   color: #ffffff;
+}
+
+#sidebar a {
+  text-decoration: none;
 }
 
 #sidebar ul {
